@@ -1,0 +1,13 @@
+
+.List .card {
+	background: #34495e;
+	color: #fff;
+  	border-radius: 2px;
+  	display: inline-block;
+  	height: 100px;
+  	margin-top: 1rem;
+  	position: relative;
+  	width: 270px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	padding: 15px;
+}
