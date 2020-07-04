@@ -1,5 +1,5 @@
-import React, { HtmlHTMLAttributes } from 'react';
-import './App.css';
+import React from 'react';
+import './css/App.css';
 import List from './components/list';
 
 

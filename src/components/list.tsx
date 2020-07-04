@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './card';
-import './list.css'
+import './css/list.css'
 import sortable from 'html5sortable/dist/html5sortable.es.js';
 
 interface Props {
