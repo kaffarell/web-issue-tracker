@@ -1,0 +1,1 @@
+declare module 'html5sortable/dist/html5sortable.es.js';

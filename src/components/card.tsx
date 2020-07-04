@@ -1,6 +1,12 @@
 import React from 'react';
 
-class Card extends React.Component {
+interface Props {
+	id: string;
+	title: string;
+	description: string;
+}
+
+class Card extends React.Component<Props> {
 	render() {
 		return (
 			<div className={"card " + this.props.id}>

@@ -3,8 +3,12 @@ import Card from './card';
 import './list.css'
 import sortable from 'html5sortable/dist/html5sortable.es.js';
 
+interface Props {
+	className?: string;
+	name: string;
+}
 
-class List extends React.Component {
+class List extends React.Component<Props> {
 	
 	componentDidMount(){
 		sortable('#todo', {
